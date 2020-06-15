@@ -39,6 +39,7 @@ if (window.rcmail) {
 						.attr('onchange', drop.attr('onchange'))
 						.attr('type', 'text')
 						.attr('value', value || drop.find('option:selected')[0].text)
+						.css('width', 'auto')
 				);
 
 			drop
